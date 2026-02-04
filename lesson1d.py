@@ -1,0 +1,12 @@
+# Create a python program that is able to calculate the simple interest given the principle as 50000, rate as 5% and time as 8 years. Simple interest = (P * R * T)/100
+
+principle = 50000
+rate = 5
+time = 8
+simple_interest = (principle * rate * time) / 100
+print("Simple interest is:", simple_interest)
+
+# Assignment one
+# 1. Write a python program that is able to calculate the BMI of a person whose weight is 75kgs and height is 1.75 meters. BMI = (weight) / (height squared)
+# 2. Find the Area and perimeter of a triangle whose length is 48cm and width is 25cm
+# Research on python list, tuple and Dictionary Data types.
