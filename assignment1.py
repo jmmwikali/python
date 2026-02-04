@@ -15,5 +15,3 @@ print("The Area of the rectangle is:", area)
 # Perimeter
 perimeter = 2 * (length + width)
 print("The Perimeter of the rectangle is:", perimeter,)
-
-
