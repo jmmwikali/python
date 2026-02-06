@@ -21,8 +21,15 @@ print(".........................................")
 player = {
     "Name" : "Messi",
     "Age" : "40",
-    "Teams" : ["PSG", "Barcelona", "Argentina"]
+    "Teams" : ["PSG", "Barcelona", "Argentina"],
+    "More" : {
+        "Children" : 3,
+        "Residence" : "US",
+        "Phone" : (25478209734, 25478762198, 2547923749)
+    }
 }
-print(player["Teams"][1])
+print("One of the teams he played for:", player["Teams"][1])
 
 # Research on if...else statements in python.
+
+print("Messi's second number is:", player["More"]["Phone"][1])
