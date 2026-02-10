@@ -43,10 +43,12 @@ def divide():
     quotient = num1 / num2
     print("The answer is: ", quotient)
     print("-------")
-
-for function in range(3):
+    
+# Adding a statements to identify each loop.
+position = ["first", "second", "third"]  # list of names
+for division, name in enumerate(position):
+    print(f"This is the {name} calculation")
     divide()
-    if range == 0:
-        print("The loop is in the first calculation")
-        
+    
+
     
