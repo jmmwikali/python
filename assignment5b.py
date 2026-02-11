@@ -11,9 +11,12 @@ number(5)
 print("=========================================")
 # Write a function that: Accepts a number (Use input() function). Uses a while loop. Calculates the square of numbers from 1 up to that number
 num = int(input("Enter a number: "))
+def square(num):
+    total = 1
+    while total <= num:
+        square = total ** 2
+        print(f"The square of {total} is {square}")
+        total += 1
 
-total = 1
-while total <= num:
-    square = total ** 2
-    print(f"The square of {total} is {square}")
-    total += 1
+
+square(num)

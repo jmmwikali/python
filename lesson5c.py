@@ -9,6 +9,9 @@ def simple_interest(p, r, t):
 simple_interest(4500, 7, 8)
 
 print("================================")
-
-for numbers in range(2):
-    simple_interest(50000, 5, 2)
+si = [
+    {50000, 5, 2},
+    {12000, 10, 4}
+]
+for numbers in si:
+    simple_interest(si[0])
